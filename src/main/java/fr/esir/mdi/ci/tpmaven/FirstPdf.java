@@ -25,7 +25,7 @@ import com.itextpdf.text.pdf.PdfWriter;
  * Le premier PDF créé à partir de maven
  * 
  */
-
+//CONFLIT
 public class FirstPdf {
     private static String FILE = "FirstPdf.pdf";
     private static Font catFont = new Font(Font.FontFamily.TIMES_ROMAN, 18,
