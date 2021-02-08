@@ -166,7 +166,16 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.14.0</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId> 
+            </plugin>
 		</plugins>
 	</reporting>
+	
+	<scm>
+        <connection>scm:git:git://https://github.com/repository1/monappli</connection>
+        <url>http://https://github.com/elifra/TP-Maven-MDI/svn/monappli-web</url>
+    </scm>
 
 </project>
